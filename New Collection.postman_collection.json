@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "20fd6d32-8288-4255-9544-8158acc53183",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19216036"
+	},
+	"item": [
+		{
+			"name": "get request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tracking.bosta.co/shipments/track/:trackingNumber",
+					"protocol": "https",
+					"host": [
+						"tracking",
+						"bosta",
+						"co"
+					],
+					"path": [
+						"shipments",
+						"track",
+						":trackingNumber"
+					],
+					"variable": [
+						{
+							"key": "trackingNumber",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
